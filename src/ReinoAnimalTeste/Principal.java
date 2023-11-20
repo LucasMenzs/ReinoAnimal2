@@ -13,15 +13,19 @@ public class Principal {
 
 	public static void main(String[] args) {
 		
-		Aquatico Carcharias_taurus = new Aquatico("Carcharias taurus", "FÃªmea",7,  false, "Alga salgada");
-		Aquatico Pygocentrus_nattehghrer = new Aquatico("Pygocentrus natterer", "maCHO", 8, true, "Agua doce");
+		Aquatico carcharias_taurus = new Aquatico("Carcharias taurus", "FÃªmea",7,  false, "Alga salgada");
+		Aquatico pygocentrus_nattehghrer = new Aquatico("Pygocentrus natterer", "maCHO", 8, true, "Agua doce");
 		// Instacia animais aquaticos
 		
-		Terrestre Felis_catus = new Terrestre("Felis catus", "fÃªmea", 2,true, "Ásia");
-		Terrestre Hydrochoerus_hydrochaeris = new Terrestre("Hydrochoerus hydrochaeris", "macho", 8, true,"AmÃ©rica do Sul");
+		Terrestre felis_catus = new Terrestre("Felis catus", "fÃªmea", 2,true, "Ásia");
+		Terrestre hydrochoerus_hydrochaeris = new Terrestre("Hydrochoerus hydrochaeris", "macho", 8, true,"AmÃ©rica do Sul");
+		// Instacia animais terrestres
 		
-		Aereo Coragyps_atratus = new Aereo("Coragyps atratus"," macho", 3, 54.5);
-		Aereo Amazona_aestiv = new Aereo("Amazona aestiv"," femea", 10, 47.5);
+		Aereo coragyps_atratus = new Aereo("Coragyps atratus"," macho", 3, 54.5);
+		Aereo amazona_aestiv = new Aereo("Amazona aestiv"," femea", 10, 47.5);
+		// Instacia animais aereos
+		
+		System.out.println("Quantidade de animais: "+amazona_aestiv.getContador() );
 	}
 
 }
