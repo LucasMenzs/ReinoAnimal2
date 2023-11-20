@@ -16,11 +16,12 @@ public class Animal {
 	
 	
 
-	public Animal(String especie, String sexo, int dataNascimento) {
+	public Animal(String especie, String sexo, int dataNascimento, int contador) {
 		super();
 		this.especie = especie;
 		this.sexo = sexo;
 		this.dataNascimento = dataNascimento;
+		this.contador = contador;
 		setContador(contador+1);
 	} // Construtor
 

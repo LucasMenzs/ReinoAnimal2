@@ -11,8 +11,8 @@ public class Terrestre extends Animal{
 	String regiao; // Regiao onde o animal habita
 	boolean pelo; //Veirifa se o animal possui pelo
 
-	public Terrestre(String especie, String sexo, int dataNascimento, String regiao,
-			boolean pelo) {
+	public Terrestre(String especie, String sexo, int dataNascimento,
+			boolean pelo, String regiao) {
 		super(especie, sexo, dataNascimento, getContador());
 		this.regiao = regiao;
 		this.pelo = pelo;
